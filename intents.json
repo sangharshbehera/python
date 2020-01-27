@@ -1,0 +1,40 @@
+{"intents": [
+        {"tag": "greeting",
+         "patterns": ["Hi", "are you", "Is anyone there?", "Hello", "Good day", "Whats up"],
+         "responses": ["Hello jobseeker,how can I help from ZoEasy !", "Hi there, how can I help from ZoEasy?"],
+         "context_set": ""
+        },
+        
+	   {"tag": "enquiry",
+         "patterns": ["Did you have jobs", "Is there any recruitment now", "I am looking for job", "I am Looking to work in dubai", "Have a Good day"],
+         "responses": ["Yes we have jobs", "Yes recruitment is going on now"],
+         "context_set": ""
+        },
+        {"tag": "jobs",
+         "patterns": ["fulltime jobs", "Commission jobs", "Is there any Dubai Jobs", "Stayed Jobs in Dubai", "age?"],
+         "responses": ["yes we have fulltime companies!", "Yes we have commission jobs!","Yes we have dubai Jobs would you like to see!"],
+         "context_set": ""
+        },
+        {"tag": "name",
+         "patterns": ["what is your name", "what should I call you", "whats your name?"],
+         "responses": ["You can call me ZOeasy.", "I'm ZOEasy!", "I'm ZOEasy assistant for Dubai jobs"],
+         "context_set": ""
+        },
+        {"tag": "jobs",
+         "patterns": ["Did you have any recruitment for drivers", "dubai driver jobs ", "could i get something related to drivers"],
+         "responses": ["We are offering driver jobs with 5000 AED! for tar trucks", "Drivers recruitment for dubai is currently going on do you want to apply!"],
+         "context_set": ""
+        },
+        {"tag": "CurrentStatus",
+         "patterns": ["May i know current status on companies recruiting drivers", "what are the companies asking drivers", "drivers companies"],
+         "responses": ["Marriott Vision-22 posts,Dubai terrain-12 posts,Burj Kalifa transports-72 posts"],
+         "context_set": ""
+        },
+	   {"tag": "goodbye",
+         "patterns": ["cya", "See you later", "Goodbye", "I am Leaving", "Have a Good day"],
+         "responses": ["Sad to see you go :(", "Talk to you later", "Goodbye!"],
+         "context_set": ""
+        }
+   ]
+
+}
